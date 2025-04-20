@@ -4,19 +4,18 @@
 
 @layer base {
     :root {
+        --font-family-primary: 'Poppins', serif;
         --font-family-secondary: "Montserrat", sans-serif;
         @apply font-sans;
-        font-family: 'Poppins', sans-serif;
     }
 
     body {
         @apply min-h-screen relative;
+        font-family: var(--font-family-primary);
     }
 }
 
-
-
-.font-secondary {
+.font-heading {
     font-family: var(--font-family-secondary);
 }
 
