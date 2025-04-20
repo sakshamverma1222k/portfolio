@@ -3,7 +3,7 @@ import index from "./index.html";
 
 const server = serve({
   routes: {
-    // Serve index.html for all unmatched routes.
+    // Serve index.html for all unmatched router.
     "/*": index,
 
     "/api/hello": {

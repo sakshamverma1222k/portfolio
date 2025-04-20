@@ -6,14 +6,15 @@
  */
 
 import { createRoot } from "react-dom/client";
-import { StrictMode } from "react";
+import {Provider} from "react-redux";
 import { App } from "./App";
+import store from "@/store/store.tsx";
 
 const elem = document.getElementById("root")!;
 const app = (
-  <StrictMode>
+<Provider store={store}>
     <App />
-  </StrictMode>
+</Provider>
 );
 
 if (import.meta.hot) {
