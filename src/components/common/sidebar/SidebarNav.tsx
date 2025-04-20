@@ -1,6 +1,6 @@
 import {useSelector} from "react-redux";
-import type  {RootState} from "src/store/store.tsx";
-import {NavLink, useLocation} from "react-router-dom";
+import type  {RootState} from "src/store/sliceType.ts";
+import {NavLink} from "react-router-dom";
 
 const SidebarNav = () => {
     const navMenu = useSelector((state: RootState) => state.menu)

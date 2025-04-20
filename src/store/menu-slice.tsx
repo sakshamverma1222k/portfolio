@@ -1,6 +1,7 @@
 import {createSlice} from "@reduxjs/toolkit";
+import type {MenuTypes} from "@/store/sliceType.ts";
 
-const initialMenuState = [
+const initialMenuState: MenuTypes[] = [
     {
         name: "Home",
         url: "/",

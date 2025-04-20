@@ -1,6 +1,6 @@
 const Home=()=>{
     return(
-        <div>Home Page</div>
+        <h1 className="font-secondary">Home Page</h1>
     )
 }
 
